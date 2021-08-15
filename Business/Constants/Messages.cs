@@ -13,5 +13,8 @@ namespace Business.Constants
         public static string ProductListed = "Məhsullar list olaraq görüntüləndi";
         public static string ProductReturned = "Məhsul görüntüləndi";
         public static string MaintenanceTime = "Üzrlü sayın sistem yoxlanışı vaxtıdır";
+        public static string ProductOfCategory = "Hər kategoriyada ən çox 10 məhsul ola bilər";
+        public static string ProductNameAlreadyExist = "Eyni adda 2 məhsul əlavə edilə bilməz ";
+        public static string CategoryLimitExceed = "Kateqoriya limiti aşıldı";
     }
 }
