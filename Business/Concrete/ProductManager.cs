@@ -35,18 +35,11 @@ namespace Business.Concrete
             {
                 return result;
             }
+
             
-            
-      
-            if (CheckIfProductCountOfCategoryCorrect(product.CategoryId).Success)
-            {
-                if (CheckIfProductNameExist(product.ProductName).Success)
-                {
                     _productDal.Add(product);
                     return new SuccessResult(Messages.ProductAdded);
-                }
-            }
-            return new ErrorResult();
+                     
         }
 
 
